@@ -5,7 +5,7 @@ import About from '../pages/About'
 import ButtonHire from '../components/commun/ButtonHire'
 import ButtonResume from '../components/commun/ButtonResume'
 import Resume from './Resume'
-
+import Testimonial from './Testimonial'
 
 export default function Home() {
     return (
@@ -31,7 +31,7 @@ export default function Home() {
                                 <p className='text-orange-600' >Kubertos</p>
                             </div>
                             <div className='text-white'>
-                                <p>  Full Stack Devloper</p>
+                                <p>  Full Stack Devloper Comming Soon</p>
                             </div>
                             <div className='text-white text-xl'>
                                 <p>Knack of building applications with front and back end operations.</p>
@@ -57,6 +57,12 @@ export default function Home() {
                 <Resume />
 
             </div>
+            <div className='w-full flex flex-col mt-12 px-4'>
+
+                <Testimonial />
+
+            </div>
+
 
         </div>
     )
